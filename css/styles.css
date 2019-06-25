@@ -1,0 +1,24 @@
+.button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+}
+
+.button5 {border-radius: 50%;}
+
+h1 {
+  font-style: italic;
+  font-weight: bold;
+  color: green;
+}
+
+#result {
+  display: none;
+}

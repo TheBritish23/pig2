@@ -5,21 +5,20 @@ var translate = function(sentence){
   for(x=0; x < splitstring; x++ ){
     vowels.forEach(function(letter){
       console.log(letter)
-    if(splitstring[x]===letter)
+    if(splitstring[x]===letter){
+  }
 
     var newWord = splitstring.splice(x, splitstring.length)+(splitstring.slice(0,x)+"way");
   });
-    console.log(letter)
 
     // if((x=="q")&&(x++)){
     //
     // }
   };
  output = splitstring.join("")+"way"
- })
  console.log(splitstring)
- return splitstring;
-});
+ return splitstring
+};
 
 
 
